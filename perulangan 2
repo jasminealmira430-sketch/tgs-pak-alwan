@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+//nama {miko, niken, mila, anjar}
+
+//dan sebuah data himpunan nilai {65,78,90,85}
+
+
+int main() 
+{
+ int i;
+ string nama[4]={"miko","mila","niken","anjar"};
+ int nilai[4]={65,78,90,85};
+ for(i=0;i<<4;i++);
+ {
+       cout<<"_________________"<<endl;
+    cout<<"nama adalah";
+    cout<<nama[i]<<endl;
+    cout<<"nilai adalah";
+    cout<<nilai[i]<<endl;
+ 
+ }
+
+
+    return 0;
+}
